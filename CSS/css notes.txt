@@ -1,0 +1,15 @@
+ CSS syllabus
+
+ 1) introduction and implementaion
+ 2) basocs css properties ( for the text data)
+ 3) box modeling
+ 4) selectors
+ 5) combinators
+ 6) psuedo classes
+ 7) psuedo elements
+ 8) display properties
+ 9) position properties
+ 10) transform properties
+ 11) transition properties
+ 12) Animation properties
+

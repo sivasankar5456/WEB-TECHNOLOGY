@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media creation</title>
+    <link rel="icon" href="image/banner.png" />
+  </head>
+  <body>
+    <h1 align="center">media creation</h1>
+    <marquee>
+      <img
+        src="image/banner.png"
+        alt="image not found"
+        height="160px"
+        width=" 280px"
+      />
+    </marquee>
+
+    <hr />
+    <a href="image/batman.jpeg" target="_blank">
+      <img src="image/joker1.jpg" />
+    </a>
+    <br />
+    <br />
+
+    <audio
+      src="audio/The_Amazing_Spiderman_2_Peter_Parker_Ringtone(256k).mp3"
+      controls
+    ></audio>
+
+    <audio controls>
+      <source src="audio/M.V.P._WWE_Theme_-_I_m_Comin___Remake_(256k).mp3" />
+    </audio>
+
+    <video
+      src="video/The_French_crowd_is_on_🔥_for_Randy_Orton(720p).mp4"
+      controls
+    ></video>
+
+    <iframe
+      height="315"
+      width="560"
+      src="https://www.youtube.com/embed/-g6vOmH5sZY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <br />
+    <br />
+    <iframe
+      height="400"
+      width="450"
+      src="./3)scrollingData.html"
+      frameborder="3"
+    ></iframe>
+
+    <br /><br />
+    <iframe
+      height="700"
+      width="500"
+      src="pdf/html-css-reference.pdf"
+      frameborder="0"
+    ></iframe>
+    <iframe id="iframe-ppt" src="ppt/samplepptx.ppt" frameborder="0"></iframe>
+
+    <script>
+      document
+        .getElementById("iframe-ppt")
+        .addEventListener("load", function (event) {
+          event.preventDefault();
+          // alert('Form submission prevented!');
+        });
+    </script>
+  </body>
+</html>

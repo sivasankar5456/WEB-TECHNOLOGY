@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition 2</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      div {
+        background-color: gold;
+        width: 300px;
+        height: 300px;
+      }
+
+      div:hover {
+        border-radius: 30%;
+        background-color: red;
+        transform: rotate(1020deg);
+        transition-duration: 5s; /* for the duration of time */
+        /* transition-property:width, height, background-color; */
+        /* transition-property: none | all | [propertyname [, propertyname]* ]; */
+         /*to specify which style duration should be apply    Or it can be used to apply on which property we want som times all some times only for particular properties */
+        transition-delay: 1s; /* to apply the intial sely of changes*/
+        transition-timing-function: linear; /* to apply the speed duration */
+
+        /* transition: 5s transform 2s linear; */ 
+        /* shot and property    or     we can use this single property  
+            to apply multple css properties trnsition duration,property, delay*/
+      }
+
+      /* div:hover {
+        border-radius: 50%;
+        background-color: red;
+        transform: rotate(360deg);
+        transition: 5s;
+      } */
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

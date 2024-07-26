@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+h1{
+    color: blue;
+    font-size: 60px;
+    font-style: normal
+    /* font-family: 'Fira Sans', sans-serif; */
+}
+p{
+    font-size: 50;
+    font-style: italic;
+}
+ /* {
+    color:white;
+    background-color: blue;
+}
+input{
+    background-color: blueviolet;
+} */

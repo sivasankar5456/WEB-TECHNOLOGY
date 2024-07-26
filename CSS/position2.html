@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000px;
+      }
+      div {
+        /* background-color: red; */
+        height: 200px;
+        width: 200px;
+        margin: 30px;
+        border: solid 2px black;
+        display: inline-block;
+      }
+
+      .div3 {
+        background-color: blue;
+        position: relative; /* relative is relative to its original postion */
+        left: 100px;
+        top: 100px;
+      }
+      /* .div2{
+position: absolute;
+left: 50px;
+top: 50px;
+        } */
+      .div2 {
+        position: fixed;
+        /* left: 50px;  
+top: 50px;  */
+        /*  when content is more we scroll but when we scroll the box is fixed it wont
+ move any where other content move but this box is fix from its postion */
+      }
+      .div4 {
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+    <div class="div4">4</div>
+  </body>
+</html>

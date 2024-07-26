@@ -1,0 +1,34 @@
+tags: any keyword written ilnside the arrow brackets we just say it as a tag.
+: tags will tell the browser to display its content in specific manner
+
+: we have two different tag in html
+1) single tag 
+if: tag is just opened we say it as single tag.
+
+2)double tag
+: if the tag is opened and then closed by using forward slash,then is is double tag.
+
+3)header tag: header tag will display the content in header,manner
+ by applying font size and boldness .
+ space occupied is full line of width       
+    <h1>all is well1</h1>
+    <h2>all is well2</h2>
+    <h3>all is well3</h3>
+    <h4>all is well4</h4>
+    <h5>all is well5</h5>
+    <h6>all is well6</h6>
+
+    4)paragraph tag: when we want to display paragraphs we can use p tag.
+    p tag wil automattically the number of lines bsased on screen size.
+    space occupied is full line of width.
+
+<p>hello world </p><p>hello friends</p>
+
+    span tag: to display the span (a small piece ) of text we can use the span tag.
+    space occupied is only to its's content.
+    
+<span>hello chandu</span>
+<span>hello shankar</span>
+
+<span>hello silver</span><br>
+<span>hello siva</span>

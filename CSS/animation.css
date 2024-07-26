@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  height: 300vh;
+}
+section {
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  /* width: 500px;
+  height: 500px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#box1 {
+  background-color: blue;
+}
+#box1:hover {
+  border-radius: 8px;
+  transform: rotate(50deg);
+  transition: 5s;
+  background-color: aqua;
+}
+
+section div:nth-child(1) {
+  background-color: red;
+  transform: rotateZ(59deg) scale(1.5);
+  transition: 5;
+}
+div:nth-child(4) {
+  background-color: orangered;
+}
+div:nth-child(2) {
+  background-color: blue;
+}
+div:nth-child(3) {
+  background-color: purple;
+}

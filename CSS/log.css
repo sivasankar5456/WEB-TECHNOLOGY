@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  background-color: pink;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+#div1 {
+  background-color: white;
+  height: 430px;
+  width: 350px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+#div1 h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+img {
+  display: flex;
+  padding-left: 12px;
+  padding-right: px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+input {
+  height: 30px;
+  width: 260px;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 18px;
+  background-color: rgb(240, 224, 224);
+  border: solid 5px rgb(240, 224, 224);
+  border-radius: 3px;
+}
+div a {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+div button {
+  background-color: orangered;
+  color: white;
+  height: 35px;
+  width: 140px;
+  border: solid 5px orangered;
+  border-radius: 20px;
+  margin-left: 90px;
+}
+
+#div2 {
+  height: 430px;
+  width: 350px;
+  background: linear-gradient(45deg, pink, red);
+  color: white;
+  text-align: center;
+  margin-top: right 5px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.hh {
+  padding-top: 130px;
+}
+
+.divimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

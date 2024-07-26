@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+}
+
+
+/* #d{
+    background-color: pink;
+    height: 600px;
+    width: 600px;
+} */
+
+#d {
+    background: radial-gradient(#3b44b138, #180c0c45), url(../CSS/log/banner.png);
+    height: 450px;
+    width: 1300px;
+
+
+    /* margin-left: 250px; */
+}
+
+#p1 {
+    padding-left: 400px;
+    padding-top: 200px;
+
+    color: white;
+    font-style: inherit;
+    font-size: 35px;
+}
+
+#in {
+
+    margin-left: 400px;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 100px;
+    margin-bottom: px;
+
+}
+
+
+div {
+    background: url(../CSS/log/logo.png);
+
+
+
+    display: inline-block;
+    border: white;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    color: blue;
+
+
+}
+
+#d1 {
+    background: url(../CSS/log/twitter.png);
+
+
+    /* background-color: aqua; */
+    height: 200px;
+    /* width: 100px; */
+    margin-left: 20px;
+    margin-top: px;
+}
+
+#d2 {
+    /* background-color: aqua; */
+
+    /* height: 250px; */
+    /* width: 100px; */
+    margin-left: px;
+    margin-top: px;
+}
+
+#d3 {
+    /* background-color: aqua; */
+    /* height: 250px; */
+    /* width: 100px; */
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#d4 {
+    /* background-color: aqua; */
+    /* height: 250px; */
+    /* width: 150px; */
+    margin-left: 0px;
+    margin-top: px;
+}
+
+
+a {
+    color: black;
+    size: 50px;
+}
+
+#uni {
+    color: blue;
+    size: 40px;
+}

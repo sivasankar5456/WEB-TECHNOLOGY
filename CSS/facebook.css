@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fira+Sans:wght@500&display=swap");
+
+section {
+  background-color: rgb(231, 235, 238);
+  width: 200vh;
+  height: 100vh;
+  /* margin: 0px; */
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: blue;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.div2 {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  /* height:auto; */
+  /* text-align: center;  */
+  /* padding: 10px;  */
+
+  margin: auto;
+
+  padding: 15px;
+  /* top&bottom , left&reight */
+
+  box-sizing: border-box;
+
+  border: solid black 1px;
+
+  /* (or) */
+  /* border-style: ridge;
+border-color: cyan; */
+
+  border-top: solid pink;
+  border-bottom: pink;
+
+  /* border-radius: 0px 10px 20px 40 px ; */
+
+  border-radius: 7px;
+  box-shadow: 10px 10px 20px 0px black;
+
+  /* margin: 100px 100px 0px 0px;      top&bottom , left&reight */
+
+  /* (or) */
+  /* margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 10px;
+margin-right: 100px; */
+}
+
+input {
+  width: 310px;
+  height: 40px;
+  margin-bottom: 10px;
+  /* border: line rgb(152, 152, 190); */
+  padding-left: 0;
+  border-radius: 7px;
+}
+
+input:hover {
+  border: solid blue;
+}
+
+#btn1 {
+  box-sizing: border-box;
+  width: 320px;
+  height: 48px;
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 7px;
+}
+
+#btn1:hover {
+  background-color: rgb(101, 101, 238);
+  outline: solide red;
+}
+
+.btn2 {
+  box-sizing: border-box;
+  width: 210px;
+  height: 48px;
+  background-color: rgb(18, 141, 18);
+  color: white;
+  border: solid;
+  border-radius: 7px;
+}
+
+.btn2:hover {
+  background-color: rgb(79, 238, 79);
+  transition: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: aqua;
+}
+
+
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  width: 550px;
+  height: auto;
+  background-color: rgb(177, 199, 219);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+  margin: 100px auto;
+}
+.uname,
+.uname1,
+.mob,
+.pass,
+.gen {
+  height: 30px;
+  font-size: 20px;
+}
+#head {
+  font-size: 50px;
+  color: darkolivegreen;
+}
+.uname {
+  margin: 12px;
+  margin-right: 2px;
+}
+.mob,
+.pass {
+  width: 480px;
+  height: 30px;
+  margin: 12px;
+}
+.date {
+  width: 180px;
+  height: 30px;
+  margin: 10px;
+  font-size: 18px;
+}
+button {
+  background-color: rgb(10, 113, 164);
+  color: white;
+  font-size: 23px;
+  border: solid 2px rgb(10, 113, 164);
+  padding: 3px;
+  border-radius: 5px;
+}
+.mydiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  border-radius: 7px;
+  border: solid 2px white;
+  padding: 4px;
+} */

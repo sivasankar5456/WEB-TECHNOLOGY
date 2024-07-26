@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        #container{
+            height: 200px;
+            width: 200px;
+            background-color: tomato;
+            text-align: center;
+            animation-name: shiva;
+            position: relative;
+            animation-duration: 7s;
+            animation-timing-function: ease-in-out;
+            transition: all;
+        }
+
+        @keyframes shiva {
+            0%{
+               margin-left: 100px; 
+                background-color: blue;
+            }
+            25%{
+                background-color: green;
+                margin-top: 100px;
+                /* transform: rotate(180deg); */
+            }
+            50%{
+                background-color: yellow;
+                margin-left: 200px;
+            }
+            75%{
+                background-color: aqua;
+                margin-bottom: 100px;
+            }
+            100%{
+                background-color: black;
+                margin-top: 0px;
+                color: aliceblue;
+            }
+        }
+        #container h1{
+            /* border: 1px solid; */
+            display: inline-block;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>box</h1>
+    </div>
+</body>
+</html>

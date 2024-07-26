@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+  height: 300vh;
+}
+section {
+  background-color: black;
+  height: 80vh;
+  width: 80vw;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  /* background-color: green; */
+}
+section div:nth-child(1) {
+  background-color: red;
+  position: relative;
+  top: 0px;
+  left: 300px;
+}
+div:nth-child(2) {
+  background-color: blue;
+  position: sticky;
+  top: 0px;
+}
+div:nth-child(3) {
+  height: 120px;
+  width: 120px;
+  background-color: purple;
+  border-radius: 100px;
+  position: fixed;
+
+  left: 400px;
+  bottom: 100px;
+}
+div:nth-child(4) {
+  background-color: orangered;
+  position: sticky;
+  left: 30px;
+  top: 50px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div button:first-child {
+        background-color: #ff3c00;
+        background-color: orangered;
+        width: 200px;
+        height: 50px;
+      }
+
+      div button:last-child {
+        background-color: yellow;
+        border-color: aqua;
+        padding: 10px 20px;
+        color: blue;
+        display: inline;
+      }
+      div button:nth-child(3) {
+        background-color: green;
+      }
+
+      div button:nth-child(2) {
+        background-color: white;
+        color: blue;
+      }
+      h1::selection {
+        background-color: yellow;
+        color: blue;
+      }
+      h1:hover:after {
+        content: "***";
+        /* content:url(/CSS/log/twitter.png); */
+      }
+      h1::before {
+        content: url(/CSS/log/twitter.png);
+      }
+      h1:hover {
+        text-decoration: underline;
+        transition: 2s;
+      }
+
+      p {
+        background-color: red;
+        display: block;
+      }
+
+      span {
+        background-color: blueviolet;
+        display: inline;
+      }
+      .button1 {
+        background-color: red;
+        display: inline-block;
+        /* height: 70px; */
+      }
+
+      h2 {
+        background-color: blue;
+        display: inline;
+        margin: px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 200px;
+
+        /* width: 500px;
+    height: 500px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Psuedo classes</h1>
+    <hr />
+    <h2>header tag</h2>
+    <p>paragraph tag</p>
+    <span>span tag</span>
+    <button class="button1">button</button>
+
+    <div>
+      <button>1st child</button>
+      <button>2nd child</button>
+      <button>3rd child</button>
+      <button>4th child</button>
+      <button>5th child</button>
+    </div>
+    <section>
+      <button>button outside the div</button>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body bgcolor="pink">
+    <h1 align="center">FORM CREATION</h1>
+    <hr />
+
+    <form action="7)table.html">
+      <br /><br />
+      <label for="n"> Name:</label>
+      <input type="text" id="n" placeholder="Enter your name" required /> <br />
+      <br />
+
+      <label for="e"> E-mail:</label
+      ><input
+        type="email"
+        id="e"
+        placeholder="Enter your email"
+        required
+      /><br /><br />
+
+      <label for="p">phone</label>
+      <input
+        type="tel"
+        id="p"
+        maxlength="13"
+        minlength="13"
+        value="+91"
+        placeholder="Enter number"
+      /><br /><br />
+
+      <label for="pa"> password:</label>
+      <input
+        type="password"
+        minlength="13"
+        id="pa"
+        maxlength="16"
+        placeholder=" enter password"
+      />
+      <br />
+      <br />
+      <fieldset>
+        <input type="radio" name="gender" id="m" />
+        <label for="m" v> male</label><br />
+        <input type="radio" name="gender" id="f" /> 
+        <label for="f">female</label><br />
+        <input type="radio" name="gender" id="o" /> 
+        <label for="o">others</label><br />
+        <input type="radio" name="gender" id="c" /> 
+        <label for="c">custom</label><br />
+        <legend align="center">select your gender</legend>
+      </fieldset>
+
+      <fieldset>
+        <input type="radio" name="course" id="m" />
+        <label for="m" v> BSC</label><br />
+        <input type="radio" name="course" id="f" /> 
+        <label for="f">BCom</label><br />
+        <input type="radio" name="course" id="o" /> 
+        <label for="o">BBA</label><br />
+        <input type="radio" name="course" id="c" /> 
+        <label for="c">Others</label><br />
+        <legend align="center">select your Course</legend>
+      </fieldset>
+
+      <fieldset>
+        <legend align="center">select subject</legend>
+        <input type="checkbox" name="subject" id="bo" />
+        <label for="bo"> botany</label><br />
+        <input type="checkbox" name="subject" id="ch" />
+        <label for="ch">chemistry</label><br />
+        <input type="checkbox" name="subject" id="z" />
+        <label for="z"> zoology</label><br />
+        <input type="checkbox" name="subject" id="bi" />
+        <label for="bi"> bioTechnology</label><br />
+        <input type="checkbox" name="subject" id="ch" />
+        <label for="ch">bioChemistry</label><br /><br />
+        <label for="dob"> date of birth:</label>
+        <input type="datetime-local" id="dob" /> <br />
+        <br />
+
+        <label for="doc">upload your resume:</label> 
+        <input type="file" />
+        <br />
+        <br />
+
+        <label for="age">Age:</label>
+        <input 
+          type="number" 
+          name="" 
+          id="age" 
+          step="1" 
+          max="99" 
+          min="18" 
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>selct your state</legend>
+        <select  >
+          <option value="">---select---</option>
+
+          <option value="">andhra pradesh</option>
+          <option value="">telangana</option>
+          <option value="">kerala</option>
+          <option value="">karnataka</option>
+          <option value="">tamil nadu</option>
+          <option value="">kashmir</option>
+          <option value="">maharashtara</option>
+          <option value="">gujarath</option>
+          <option value="">madhya pradesh</option>
+        </select>
+      </fieldset>
+      <br />
+      <input type="color" /> <input type="submit" />
+      <input type="reset" /><br />
+      <br />
+    </form>
+  </body>
+</html>

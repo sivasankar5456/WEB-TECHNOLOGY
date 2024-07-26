@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        animation-name: scroll;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        position: relative;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: alternate-reverse;
+        /*normal,alternate,alternate-reverse */
+        /* animation-fill-mode: forwards; */
+      }
+
+      @keyframes scroll {
+        0% {
+          left: 10%;
+        }
+
+        100% {
+          left: 50%;
+        }
+      }
+
+      /*  
+div{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+animation-name: anime;
+animation-duration: 10s;
+
+
+}
+
+@keyframes anime{
+
+    0%{
+        background-color: gold;
+        border-radius: 0%;
+        transform: scale(1);
+        top: 0px;
+    }
+    25%{
+background-color: red;
+border-radius: 50%;
+transform: scale(2);
+
+top: 300px;
+
+    }
+    50%{
+background-color: purple;
+border-radius: 0%;
+transform: scale(1);
+top: 0px;
+
+    }
+    75%{
+background-color: green;
+border-radius: 50%;
+transform: scale(2);
+top: 300px;
+
+    }
+    100%{
+background-color: blue;
+    }
+}
+ */
+    </style>
+  </head>
+
+  <body>
+    <!-- <div></div> -->
+    <h1>hey hello</h1>
+  </body>
+</html>
